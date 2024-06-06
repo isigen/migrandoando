@@ -1,0 +1,159 @@
+body {
+    background-color: #fff;
+
+}
+
+.Rectangulo1 {
+    background-color: #0096FF;
+    justify-content: end;
+    display: flex;
+    min-height: 100vh;
+    max-width: 100%;
+}
+
+#imagenregc {
+    max-width: 100%;
+    align-self: flex-end;
+}
+
+.RegistraTuPyme {
+    text-align: center;
+    font-size: 65px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    line-height: 115px;
+    color: black;
+    margin-top: 117px;
+}
+
+.bolas {
+    width: 278px;
+    height: 50px;
+    position: relative;
+    margin-left: 265px;
+}
+
+.Bola1 {
+    width: 55px;
+    height: 55px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #9091DD;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 9999px;
+}
+
+.Bola2 {
+    width: 55px;
+    height: 55px;
+    left: 111px;
+    top: 0px;
+    position: absolute;
+    background: #9091DD;
+    /* box-shadow: 10px 10px 10px; */
+    border-radius: 9999px;
+    filter: blur(5px)
+}
+
+.Bola3 {
+    width: 55px;
+    height: 55px;
+    left: 222px;
+    top: 0px;
+    position: absolute;
+    background: #9091DD;
+    /* box-shadow: 10px 10px 10px; */
+    border-radius: 9999px;
+    filter: blur(5px)
+}
+
+.Linea1 {
+    width: 59.55px;
+    height: 0px;
+    left: 51.57px;
+    top: 25.56px;
+    position: absolute;
+    transform: rotate(-0.53deg);
+    transform-origin: 0 0;
+    border: 1px #8080D7 solid;
+}
+
+.Linea2 {
+    width: 59.55px;
+    height: 0px;
+    left: 165.15px;
+    top: 25.56px;
+    position: absolute;
+    transform: rotate(-0.53deg);
+    transform-origin: 0 0;
+    border: 1px #9091DD solid;
+}
+
+.DatosPersonales {
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 27.50px;
+    color: black;
+    padding-left: 40px;
+}
+
+.NombreCompleto,
+.Rut,
+.Correo,
+.Region,
+.FechaNacimiento,
+.Genero,
+.Contrasena,
+.ConfirmeContrasena {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    color: black;
+    padding-left: 40px;
+    margin-top: 20px;
+}
+
+.DatosContrasena {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    color: black;
+    text-align: justify;
+    margin-top: 20px;
+    padding-left: 40px;
+}
+
+.Rectangulo2,
+.Rectangulo3,
+.Rectangulo4,
+.Rectangulo5,
+.Rectangulo6,
+.Rectangulo7,
+.Rectangulo8,
+.Rectangulo9 {
+    background: rgba(170, 217, 217, 0.19);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset;
+    border-radius: 80px;
+    width: 60%;
+    margin-left: 40px;
+}
+
+.siguiente {
+    background-color: #590696;
+    color: #fff;
+    font-family: "Roboto";
+    border-radius: 50px;
+    border-style: none;
+    position: relative;
+    margin-left: 500px;
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
