@@ -6,7 +6,7 @@ const NextButton = () => {
     <div className="center-button">
       <form action="registro-pyme-2.html" method="get">
         <button className="cta-button" type="submit">
-          Siguiente
+          Siguiente →
         </button>
       </form>
     </div>

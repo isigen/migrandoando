@@ -1,0 +1,255 @@
+.container-fluid {
+    position: relative;
+    min-height: 100vh;
+}
+.input-error {
+    border-color: red;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+.TEXTA {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    /* Ajuste del borde para menos redondeado */
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+        background: rgba(170, 217, 217, 0.19);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset;
+            border-radius: 80px;
+            width: 80%;
+            margin-left: 40px;
+            z-index: 2;
+}
+.RegistroCoach h1 {
+    font-size: 45px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    color: black;
+    margin-left: 40px;
+    /* Ajuste para la posición del texto */
+}
+
+.DatosContrasena {
+    margin-top: 5px;
+    color: #555;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.Rectangulo5 {
+    margin-bottom: 5px;
+}
+
+.Rectangulo9 {
+    margin-bottom: 5px;
+}
+
+.input-group {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.input-group-text {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+.Rectangulo1 {
+    background: rgba(0, 149, 255, 0.781);
+    height: 100vh;
+    width: 25%;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: fixed;
+    z-index: 1;
+    /* Asegura que esté sobre el contenido principal */
+    transition: all 0.3s ease;
+}
+
+.Rectangulo1 img {
+    max-width: 90%;
+    margin: 20px;
+    align-self: flex-end;
+    /* Asegura que la imagen esté al final del contenedor */
+}
+
+.RegistroCoach {
+    margin-left: 130px;
+}
+
+.RegistroCoach {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    line-height: 115px;
+    color: black;
+    position: relative;
+    top: 20px;
+    z-index: 2;
+    /* Asegura que esté sobre el Rectangulo1 */
+}
+
+.bolas {
+    width: 278px;
+    height: 50px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+    /* Asegura que esté sobre el Rectangulo1 */
+}
+
+.Bola1,
+.Bola2,
+.Bola3 {
+    width: 40px;
+    height: 40px;
+    background: #9091DD;
+    border-radius: 50%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    justify-content: space-evenly;
+}
+/* .Bola1,
+.Bola2,
+.Bola3 {
+    filter: blur(5px);
+} */
+
+.Linea1,
+.Linea2 {
+    position: absolute;
+    top: 25px;
+    border: 1px solid #9091DD;
+    width: 100px;
+}
+
+.Linea1 {
+    left: 30px;
+}
+
+.Linea2 {
+    left: 150px;
+}
+
+.DatosPersonales {
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 27.50px;
+    color: black;
+    padding: 160px 40px;
+    z-index: 2;
+    /* Asegura que esté sobre el Rectangulo1 */
+    margin-left: 25%;
+    /* Evita que el contenido se superponga con el Rectangulo1 */
+}
+
+label {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    color: black;
+    margin-top: 20px;
+    padding-left: 40px;
+    z-index: 2;
+    /* Asegura que esté sobre el Rectangulo1 */
+}
+
+.form-control {
+    background: rgba(170, 217, 217, 0.19);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset;
+    border-radius: 80px;
+    width: 80%;
+    margin-left: 40px;
+    z-index: 2;
+    /* Asegura que esté sobre el Rectangulo1 */
+}
+
+.DatosContrasena {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    color: black;
+    text-align: justify;
+    margin-top: 20px;
+    padding-left: 40px;
+    z-index: 2;
+    /* Asegura que esté sobre el Rectangulo1 */
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+    .Rectangulo1 {
+        position: static;
+        height: auto;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        /* Asegura que no haya márgenes ni padding */
+    }
+    .custom-file-upload {
+        padding: 10px 0;
+        max-width: 360px;
+    }
+    .custom-file-upload-FOTO {
+        padding: 10px 0;
+        max-width: 360px;
+        }
+    .Rectangulo1 img {
+        align-self: center;
+        /* Center the image when in mobile view */
+    }
+
+    .DatosPersonales {
+        padding: 20px;
+        margin-left: 0;
+        /* Reset margin to avoid overlap */
+    }
+
+    .Bola1,
+    .Bola2,
+    .Bola3 {
+        width: 35px;
+        height: 35px;
+        background: #9091DD;
+        border-radius: 50%;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .Linea1 {
+        left: 30px;
+        width: 95px;
+    }
+
+    .Linea2 {
+        left: 155px;
+        width: 95px;
+    }
+
+    .RegistroCoach {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+}

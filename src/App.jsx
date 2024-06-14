@@ -1,17 +1,19 @@
 import React from "react";
-import "./App.css";
-import Header from "./components/Header";
-import Form from "./components/Form";
+import RegistroCoach from "./RegistroCoach/RegistroCoach";
+
 
 function App() {
   return (
-    <div className="container-fluid">
-      <Header/>
-      <Form/>
+    <div>
+      
+      <RegistroCoach/>
+      
     </div>
   );
 }
 
 export default App;
+
+/*falta ver el grosor del h1, ver el rectangulo celeste en telefono */
 
 
