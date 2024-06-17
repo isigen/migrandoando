@@ -208,44 +208,33 @@ const Form = () => {
                             <br />
                             <FileUploadButton id="1" />
                         </div>
-                        <br />
-                        <div className="form-group">
-                            <label htmlFor="fechaNacimiento" className="FechaNacimiento">Disponibilidad Horaria*</label>
-                            <br />
-                            <BtnBlanco>Lun</BtnBlanco>
-                            <br />
-                             <input type="text" placeholder='Indique Su Disponibilidad (HORA)' id="confirmeContrasena" className="form-control Rectangulo9" />
-                           
-                        </div>
-                        <div className="form-group">
-                            <label htmlFor="correo" className="Correo">Descripción (Describe en un máximo de 2000 carácteres quién eres, tu trayectoria y habilidades)*</label>
-                            <textarea type="text" id="correo" className="form-control Rectangulo7 TEXTA" />
-                        </div>
-                    </div>
-                    <div className="col-md-6">
-                        <div className="form-group">
-                            <label htmlFor="contrasena" className="Contrasena">Experiencia en marketing o comunicaciones*</label>
-                            <textarea type="text" id="contrasena" className="form-control Rectangulo5 " />
-                        </div>
+                        
                         <div className="form-group">
                             <label htmlFor="rut" className="Rut">Formación Academica(opcional)*</label>
                             <FileUploadButton id="2" />
                         </div>
-                        <br />
                         <div className="form-group">
-                            <label htmlFor="correo" className="Correo">Experiencia en Mentorías*</label>
-                            <textarea type="text" id="correo" className="form-control Rectangulo7 TEXTA" />
+                            <label htmlFor="region" className="Region">
+                                Disponibilidad Horaria*</label>
+                            <select id="genero" className="form-control Rectangulo8">
+                                <option value="" disabled selected>Seleccione su Disponibilidad</option>
+                                <option value="male">Lunes a Viernes</option>
+                                <option value="male">Sabado y Domingo</option>
+                                <option value="other">Personalizado(conversar con cliente)</option>
+                            </select>
+                            
+                           
                         </div>
-                        <br />
-                        <br />
-                        <br />
+
+                    </div>
+                    <div className="col-md-6"> 
                         <div className="form-group">
-                            <label htmlFor="genero" className="Genero">Tarifa (CLP)*</label>
-                            <input type="text" placeholder='Indique su tarifa por hora' id="confirmeContrasena" className="form-control Rectangulo9" />
+                            <label htmlFor="correo" className="Correo">Danos una breve descripción de ti, junto con tu experiencia en Mentorías y/o Marketing.<br></br>(MAX 2000 carácteres)*</label>
+                            <textarea type="text" id="correo" className=" Rectangulo7 TEXTA" />
                         </div>
                         <div className="form-group">
                             <label htmlFor="genero" className="Genero">Foto De Perfil*</label>
-                            <br />
+                            
                             <FotoPerfil />
                         </div>
                     </div>
