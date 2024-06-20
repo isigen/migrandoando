@@ -204,7 +204,7 @@ const Form = () => {
                         </div>
                         <br />
                         <div className="form-group">
-                            <label htmlFor="region" className="Region">Certificaciónes(opcional)*</label>
+                            <label htmlFor="region" className="Region">Certificaciones(opcional)*</label>
                             <br />
                             <FileUploadButton id="1" />
                         </div>
@@ -230,7 +230,7 @@ const Form = () => {
                     <div className="col-md-6"> 
                         <div className="form-group">
                             <label htmlFor="correo" className="Correo">Danos una breve descripción de ti, junto con tu experiencia en Mentorías y/o Marketing.<br></br>(MAX 2000 carácteres)*</label>
-                            <textarea type="text" id="correo" className=" Rectangulo7 TEXTA" />
+                            <textarea type="text" id="correo" className=" form-control Rectangulo7 TEXTA" />
                         </div>
                         <div className="form-group">
                             <label htmlFor="genero" className="Genero">Foto De Perfil*</label>
